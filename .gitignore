@@ -1,0 +1,13 @@
+# KiCad Backup files
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-cache.lib
+
+# Lock files
+*.lck
+
+# User specific cache files
+fp-info-cache
+fp-lib-table
+sym-lib-table
