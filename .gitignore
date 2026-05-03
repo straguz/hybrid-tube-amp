@@ -1,3 +1,6 @@
+# directories not to upload to git
+hybrid-tube-amp-backups/
+
 # KiCad Backup files
 *.bak
 *.kicad_pcb-bak
@@ -11,3 +14,6 @@
 fp-info-cache
 fp-lib-table
 sym-lib-table
+
+# Editor files
+*.geany
