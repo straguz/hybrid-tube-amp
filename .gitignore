@@ -1,5 +1,6 @@
 # directories not to upload to git
 hybrid-tube-amp-backups/
+.history
 
 # KiCad Backup files
 *.bak
