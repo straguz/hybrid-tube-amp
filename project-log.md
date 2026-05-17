@@ -64,7 +64,7 @@ Then on the cathodes, I included some "emitter" degredation resistors from each 
 
 Then lastly, for the tail current, it is just a pretty standard transistor constant current source, I'm using KSC1845 as I'm already using them for the cascodes. I also stuck a cascode in here too as it's trivially easy to do and there's a whole section in Self's book about how it is a performance improvement.
 
-I was fortunately able to find a spice model for the tube online (https://www.diyaudio.com/community/threads/vacuum-tube-spice-models.243950/page-146) and at least get a rough idea of if the operating point was right. It seemed to follow the predictions quite well, so I felt confident to move on to the next stage.
+I was fortunately able to find a spice model for the tube online (https://www.diyaudio.com/community/threads/vacuum-tube-spice-models.243950/page-146) and at least get a rough idea of if the operating point was right. It seemed to follow the predictions quite well, other than that the simulated gm was much lower than the datasheet's curves. However other than that, everything behaved like I expected, so I felt confident to move on to the next stage.
 
 ### Transimpedance stage
 
@@ -72,7 +72,7 @@ I was fortunately able to find a spice model for the tube online (https://www.di
 
 I ended up almost completely to a T copying the designs in Self's power amplifiers book.
 
-For a calculation that I will show in here, there's the compensation capacitor. I didn't do anything funky here like 2 pole compensation, I just calculated for a unity gain frequency of about 500 kHz using the formula from Self's book: H = gm/(w\*C), where gm is the input stage gm and C is the compensation cap. I went for a 4 MHz unity gain, and got C ~= 400 pF. I used that as a starting point in the simulation and decreased the value while staying within the phase margin, and ended up using 220 pF, for a phase margin of 80 degrees. I could probably have gone even lower, and gotten a bit more gain out of it, but I figure the simulation is a best-case scenario and the actual board will have some unaccounted for parasitics that will eat into my margin, so this is a good starting point.
+For a calculation that I will show in here, there's the compensation capacitor. I didn't do anything funky here like 2 pole compensation, I just calculated for a unity gain frequency using the formula from Self's book: H = gm/(w\*C), where gm is the input stage gm and C is the compensation cap. I went for a 4 MHz unity gain, and got C ~= 400 pF. I used that as a starting point in the simulation and decreased the value while staying within the phase margin, and ended up using 100 pF, which gave me a phase margin of 87 degrees in the simulation (side-note: like I said above, the simulation gave an input stage gm that was about half of what I designed for, so what I did for this was to use degenerated transistors to get the same gm and Ic that I should have with the tubes.. there's definitely a lot of inaccuracies with doing this, but it was the best solution I could come up with). I'll be sure to have multiple possible values for this so I can test different values on the final product.
 
 In this stage we also find the VBE multiplier, which I'll talk more about in the output stage section as it's used to bias the output transistors.
 
@@ -92,6 +92,8 @@ The output stage has a usual Zobel network as well as a series inductor/resistor
 
 I also kept the feedback very simple, just a pair of resistors to give a gain of about 20 V/V overall. There's also a capacitor to ground in the feedback network, and I calculated the value to give me a low frequency cutoff of around 1 Hz.
 
+Lastly of note is amplifier protection. I don't think I need I-V limiting, as my amplifier's max power is already approaching the max power that the power supply can put out. So I would think the PSU fuse should blow before any protection circuit would kick in anyway. So all I did was put some diodes reverse biased to the rails to prevent from overvoltage flyback in case something weird happens (like if the relay shuts off)
+
 ### Auxiliary electronics
 
 Firstly, I wanted a pre-amp to let me use balance and volume controls. To keep this simple, I decided on a really basic op-amp based circuit. I more or less just copied the circuit from here: https://sound-au.com/project88.htm, the logarithmic approximation circuit is particularly cool. The circuit on the website has a selectable gain, but I don't think that's necessary for me. I just put in 2x gain in the second stage to balance out any losses in the volume/balance controller.
@@ -103,6 +105,8 @@ Another very important auxiliary piece is the delay circuit. Tubes have a warm-u
 There's a lot written both online and in books about these kind of switches, as one of the hard parts is using a relay to switch high current branches of a circuit; you can get arcing, it's hard to disengage a relay at high current, etc., but I had a bit of a realization during the design: if I only use the relay on the first 2 stages, which draw comparatively little current in operation, I shouldn't actually even need one for the output stages. Without current flowing through the VAS branch, the voltage across the VBE multiplier is 0V, and so the drivers and output transistors will all be off. This makes it a LOT easier to manage. I just used a simple timer circuit with a huge resistor, capacitor, and a darlington transistor to set the delay time to about 30 seconds, and the darlington then drives the relays and LEDs.
 
 For the relays themselves, I just found a relay that was good for the power supplies and one that was good for the audio. I've never actually designed with a relay outside of some basic school projects, but I hope the ones I selected are good enough.
+
+I did also include a DC protection circuit. This one I based on one of the circuits on this page: https://sound-au.com/project33.htm. I didn't want to mess around with speaker safety so I wanted something that's actually tried and tested.
 
 ### Mechanical components
 

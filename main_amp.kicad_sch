@@ -3218,12 +3218,6 @@
 		(uuid "6b2cfb2d-7b30-4087-9707-18f2334a8fc8")
 	)
 	(junction
-		(at 76.2 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ea8dfea-6723-40bd-ab8e-4b5357fcef55")
-	)
-	(junction
 		(at 203.2 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3348,6 +3342,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd19fcf2-3e51-4f18-88ca-5fa53b453c38")
+	)
+	(junction
+		(at 241.3 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df4a103c-6cf1-4c26-84c9-6552354a46f8")
 	)
 	(junction
 		(at 152.4 95.25)
@@ -3565,6 +3565,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 49.53) (xy 228.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117f2e6a-d13b-4ebb-b329-ac7638c102df")
+	)
+	(wire
+		(pts
 			(xy 266.7 118.11) (xy 266.7 127)
 		)
 		(stroke
@@ -3592,16 +3602,6 @@
 			(type default)
 		)
 		(uuid "19ff64ee-d1b3-475e-b76c-64c2b9e0608a")
-	)
-	(wire
-		(pts
-			(xy 76.2 99.06) (xy 76.2 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b499b8b-bbda-4fc5-b263-e8471af3b183")
 	)
 	(wire
 		(pts
@@ -3645,7 +3645,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 34.29) (xy 241.3 31.75)
+			(xy 241.3 33.02) (xy 241.3 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3995,16 +3995,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 41.91) (xy 241.3 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55f560ea-fcbf-4f2c-972c-0ce5a9d5024d")
-	)
-	(wire
-		(pts
 			(xy 88.9 156.21) (xy 88.9 177.8)
 		)
 		(stroke
@@ -4175,7 +4165,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 88.9) (xy 82.55 88.9)
+			(xy 71.12 88.9) (xy 82.55 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4305,16 +4295,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 88.9) (xy 76.2 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74a44503-6d08-4575-bf59-dbc3a908964b")
-	)
-	(wire
-		(pts
 			(xy 241.3 19.05) (xy 254 19.05)
 		)
 		(stroke
@@ -4405,7 +4385,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 41.91) (xy 254 44.45)
+			(xy 254 41.91) (xy 254 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4432,6 +4412,16 @@
 			(type default)
 		)
 		(uuid "80d98740-67f0-4875-9cc7-845e80b50ca5")
+	)
+	(wire
+		(pts
+			(xy 228.6 33.02) (xy 228.6 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "824a2a08-2848-46a7-a2df-711d88ae2b11")
 	)
 	(wire
 		(pts
@@ -4502,6 +4492,16 @@
 			(type default)
 		)
 		(uuid "888fac03-bf81-45aa-82c3-c5e9a30abbe2")
+	)
+	(wire
+		(pts
+			(xy 228.6 31.75) (xy 241.3 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b56276-03c3-4770-8e71-4e82694686a9")
 	)
 	(wire
 		(pts
@@ -4685,16 +4685,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 88.9) (xy 76.2 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f12a1d8-63ab-49ea-b0e7-84753300aafa")
-	)
-	(wire
-		(pts
 			(xy 266.7 95.25) (xy 273.05 95.25)
 		)
 		(stroke
@@ -4812,6 +4802,16 @@
 			(type default)
 		)
 		(uuid "afc1725f-5dcc-4978-b6b7-ce7a60c97ffd")
+	)
+	(wire
+		(pts
+			(xy 241.3 49.53) (xy 241.3 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b14642-0d91-4073-a5f0-d6d5c81f8561")
 	)
 	(wire
 		(pts
@@ -5105,6 +5105,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 41.91) (xy 228.6 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7cf883b-6cc1-41d7-a32a-e07ced954e07")
+	)
+	(wire
+		(pts
 			(xy 184.15 44.45) (xy 184.15 45.72)
 		)
 		(stroke
@@ -5192,6 +5202,16 @@
 			(type default)
 		)
 		(uuid "e168567c-c0df-47aa-9a6c-c6e3cb381859")
+	)
+	(wire
+		(pts
+			(xy 241.3 40.64) (xy 241.3 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3700379-161c-4892-95f2-954a4c872de6")
 	)
 	(wire
 		(pts
@@ -5757,6 +5777,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 228.6 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06a3751e-d47a-4c39-a998-6463e59ced51")
+		(property "Reference" "D203"
+			(at 226.06 46.9901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 226.06 44.4501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 228.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 228.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 228.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e9dc392-7d17-4ba2-b8fa-fedd059b2074")
+		)
+		(pin "1"
+			(uuid "1e3ca22b-dfd4-4a7a-b71d-953f6d3fa681")
+		)
+		(instances
+			(project "hybrid-tube-amp"
+				(path "/2946cadf-5ab5-4e3c-9cfa-221ae362088e/3db78dfb-a2df-46fc-84e8-34ed7de89067"
+					(reference "D203")
+					(unit 1)
+				)
+				(path "/2946cadf-5ab5-4e3c-9cfa-221ae362088e/5b222ac7-9fd7-4c76-9755-cd522c32a968"
+					(reference "D303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 146.05 171.45 270)
 		(unit 1)
@@ -5846,7 +5958,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "2.2k"
 			(at 262.89 15.24 90)
 			(effects
 				(font
@@ -5982,6 +6094,98 @@
 				)
 				(path "/2946cadf-5ab5-4e3c-9cfa-221ae362088e/5b222ac7-9fd7-4c76-9755-cd522c32a968"
 					(reference "Q310")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 228.6 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0936f7f8-d7f3-4af8-90c4-d6bfef35a983")
+		(property "Reference" "D202"
+			(at 226.06 38.1001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 226.06 35.5601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 228.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 228.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 228.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d01ab3d7-db46-4083-a909-1bd197d3a667")
+		)
+		(pin "1"
+			(uuid "e90517aa-dd79-4b7f-8a8d-2b4c3ebddf6f")
+		)
+		(instances
+			(project "hybrid-tube-amp"
+				(path "/2946cadf-5ab5-4e3c-9cfa-221ae362088e/3db78dfb-a2df-46fc-84e8-34ed7de89067"
+					(reference "D202")
+					(unit 1)
+				)
+				(path "/2946cadf-5ab5-4e3c-9cfa-221ae362088e/5b222ac7-9fd7-4c76-9755-cd522c32a968"
+					(reference "D302")
 					(unit 1)
 				)
 			)
@@ -6365,7 +6569,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "100"
 			(at 256.54 26.6699 0)
 			(effects
 				(font
@@ -7584,7 +7788,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "22k"
 			(at 22.86 96.5199 0)
 			(effects
 				(font
@@ -8115,150 +8319,6 @@
 				)
 				(path "/2946cadf-5ab5-4e3c-9cfa-221ae362088e/5b222ac7-9fd7-4c76-9755-cd522c32a968"
 					(reference "R307")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 101.6 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d0d5ab0-d09e-4cc4-84d3-fa76c14c0be8")
-		(property "Reference" "C202"
-			(at 105.41 80.3909 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 105.41 82.9309 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.5652 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 101.6 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94811d7b-53a3-4e2a-85fd-48ac0556011d")
-		)
-		(pin "2"
-			(uuid "4f7bd0d6-ef88-4f45-a81d-1b33c3fb9358")
-		)
-		(instances
-			(project "hybrid-tube-amp"
-				(path "/2946cadf-5ab5-4e3c-9cfa-221ae362088e/3db78dfb-a2df-46fc-84e8-34ed7de89067"
-					(reference "C202")
-					(unit 1)
-				)
-				(path "/2946cadf-5ab5-4e3c-9cfa-221ae362088e/5b222ac7-9fd7-4c76-9755-cd522c32a968"
-					(reference "C302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 76.2 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e77a849-aba5-4147-a1ba-3f4d84d7677e")
-		(property "Reference" "#PWR0209"
-			(at 76.2 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa54391c-04f9-4e5b-986d-a10b3b7a8089")
-		)
-		(instances
-			(project "hybrid-tube-amp"
-				(path "/2946cadf-5ab5-4e3c-9cfa-221ae362088e/3db78dfb-a2df-46fc-84e8-34ed7de89067"
-					(reference "#PWR0209")
-					(unit 1)
-				)
-				(path "/2946cadf-5ab5-4e3c-9cfa-221ae362088e/5b222ac7-9fd7-4c76-9755-cd522c32a968"
-					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -9334,7 +9394,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 241.3 38.1 270)
+		(at 241.3 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9343,7 +9403,7 @@
 		(fields_autoplaced yes)
 		(uuid "73091572-15ee-4dba-b4c6-16b960689ae8")
 		(property "Reference" "D201"
-			(at 243.84 36.8299 90)
+			(at 243.84 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9352,7 +9412,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 243.84 39.3699 90)
+			(at 243.84 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9361,7 +9421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 38.1 0)
+			(at 241.3 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9370,7 +9430,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 38.1 0)
+			(at 241.3 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9379,7 +9439,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 241.3 38.1 0)
+			(at 241.3 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9388,7 +9448,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 241.3 38.1 0)
+			(at 241.3 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9397,7 +9457,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 241.3 38.1 0)
+			(at 241.3 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9425,80 +9485,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 76.2 95.25 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77d34adb-f60b-4d6a-a395-4a9884508f15")
-		(property "Reference" "R210"
-			(at 73.66 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50k"
-			(at 73.66 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 75.184 95.504 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 76.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "066b2362-88f6-443a-8766-4717b9203b96")
-		)
-		(pin "2"
-			(uuid "1da5d931-e33a-4312-b931-a250c47fcdd4")
-		)
-		(instances
-			(project "hybrid-tube-amp"
-				(path "/2946cadf-5ab5-4e3c-9cfa-221ae362088e/3db78dfb-a2df-46fc-84e8-34ed7de89067"
-					(reference "R210")
-					(unit 1)
-				)
-				(path "/2946cadf-5ab5-4e3c-9cfa-221ae362088e/5b222ac7-9fd7-4c76-9755-cd522c32a968"
-					(reference "R310")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 254 38.1 0)
 		(unit 1)
@@ -9509,7 +9495,7 @@
 		(fields_autoplaced yes)
 		(uuid "78f9a197-6528-415b-9c3b-8a7c09f99706")
 		(property "Reference" "C205"
-			(at 257.81 35.9409 0)
+			(at 257.81 34.6709 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9518,7 +9504,7 @@
 			)
 		)
 		(property "Value" "1000u"
-			(at 257.81 38.4809 0)
+			(at 257.81 37.2109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9545,6 +9531,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 254 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "UKA1V102MHD"
+			(at 257.81 39.7509 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Orderable part number" "647-UKA1V102MHD"
 			(at 254 38.1 0)
 			(effects
 				(font
@@ -9730,6 +9734,98 @@
 				)
 				(path "/2946cadf-5ab5-4e3c-9cfa-221ae362088e/5b222ac7-9fd7-4c76-9755-cd522c32a968"
 					(reference "R317")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 101.6 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bbd019d-3bdf-4517-a03d-7eeaf1bab7af")
+		(property "Reference" "C202"
+			(at 105.41 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 105.41 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 100.6348 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 101.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FA11X7S2A475KRU06"
+			(at 105.41 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Orderable Part Number" "810-FA11X7S2A475KRU6"
+			(at 101.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a56e4f6-e90b-49cb-bab1-ea6093e76a40")
+		)
+		(pin "1"
+			(uuid "2ea2f033-74bf-4e98-b16b-3fb090990707")
+		)
+		(instances
+			(project "hybrid-tube-amp"
+				(path "/2946cadf-5ab5-4e3c-9cfa-221ae362088e/3db78dfb-a2df-46fc-84e8-34ed7de89067"
+					(reference "C202")
+					(unit 1)
+				)
+				(path "/2946cadf-5ab5-4e3c-9cfa-221ae362088e/5b222ac7-9fd7-4c76-9755-cd522c32a968"
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -11141,6 +11237,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 241.3 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2c3af59-6cb1-4058-b229-9a81b6dd46a2")
+		(property "Reference" "D204"
+			(at 243.84 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 243.84 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d368764d-fc40-4bfb-9336-b9bc05ec0f99")
+		)
+		(pin "1"
+			(uuid "2b231b99-bc04-4659-b741-8ae33365917a")
+		)
+		(instances
+			(project "hybrid-tube-amp"
+				(path "/2946cadf-5ab5-4e3c-9cfa-221ae362088e/3db78dfb-a2df-46fc-84e8-34ed7de89067"
+					(reference "D204")
+					(unit 1)
+				)
+				(path "/2946cadf-5ab5-4e3c-9cfa-221ae362088e/5b222ac7-9fd7-4c76-9755-cd522c32a968"
+					(reference "D304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:Q_NPN_ECB")
 		(at 53.34 139.7 0)
 		(mirror y)
@@ -11299,7 +11487,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 44.45 0)
+		(at 241.3 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11308,7 +11496,7 @@
 		(fields_autoplaced yes)
 		(uuid "c75f3f96-d4b7-42ca-8d07-b8e6d7d8c6c5")
 		(property "Reference" "#PWR0226"
-			(at 241.3 50.8 0)
+			(at 241.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11317,7 +11505,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 49.53 0)
+			(at 241.3 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11325,7 +11513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 44.45 0)
+			(at 241.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11334,7 +11522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 44.45 0)
+			(at 241.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11343,7 +11531,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 44.45 0)
+			(at 241.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11443,7 +11631,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 254 44.45 0)
+		(at 254 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11452,7 +11640,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc3cebe5-dc25-470c-b2b6-5498ff5159a1")
 		(property "Reference" "#PWR0229"
-			(at 254 50.8 0)
+			(at 254 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11461,7 +11649,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 49.53 0)
+			(at 254 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11469,7 +11657,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 44.45 0)
+			(at 254 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11478,7 +11666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 44.45 0)
+			(at 254 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11487,7 +11675,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 44.45 0)
+			(at 254 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12130,6 +12318,14 @@
 		(fields_autoplaced yes)
 		(uuid "da0222c3-ba38-4371-94e4-5d9521567a4e")
 		(property "Reference" "C204"
+			(at 139.7 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100p"
 			(at 139.7 68.58 90)
 			(effects
 				(font
@@ -12137,15 +12333,7 @@
 				)
 			)
 		)
-		(property "Value" "220p"
-			(at 139.7 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 143.51 75.2348 0)
 			(effects
 				(font
@@ -12165,6 +12353,23 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C101J1GACTU"
+			(at 139.7 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Orderable Part Number" "80-C0603C101J1G"
+			(at 139.7 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12756,7 +12961,7 @@
 		(fields_autoplaced yes)
 		(uuid "f709662a-a3f6-40b9-be62-5a4af0f86684")
 		(property "Reference" "C201"
-			(at 92.71 150.2409 0)
+			(at 92.71 148.9709 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12765,7 +12970,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 92.71 152.7809 0)
+			(at 92.71 151.5109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12773,7 +12978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 89.8652 156.21 0)
 			(effects
 				(font
@@ -12800,6 +13005,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "UPW1J470MPD "
+			(at 92.71 154.0509 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Orderable Part Number" "647-UPW1J470MPD"
+			(at 88.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "77160711-6c3e-4b6a-9d96-a3f3b9ef13ff")
 		)
@@ -12814,6 +13037,76 @@
 				)
 				(path "/2946cadf-5ab5-4e3c-9cfa-221ae362088e/5b222ac7-9fd7-4c76-9755-cd522c32a968"
 					(reference "C301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f94b6f70-1b9e-42bb-b21c-503207ee3c26")
+		(property "Reference" "#PWR0209"
+			(at 228.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edbcf827-ddc4-4454-90a6-9c80d164d8d9")
+		)
+		(instances
+			(project "hybrid-tube-amp"
+				(path "/2946cadf-5ab5-4e3c-9cfa-221ae362088e/3db78dfb-a2df-46fc-84e8-34ed7de89067"
+					(reference "#PWR0209")
+					(unit 1)
+				)
+				(path "/2946cadf-5ab5-4e3c-9cfa-221ae362088e/5b222ac7-9fd7-4c76-9755-cd522c32a968"
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
